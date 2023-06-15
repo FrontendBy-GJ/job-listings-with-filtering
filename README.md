@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution](https://your-solution-url.com)
-- [Live site](https://your-live-site-url.com)
+- [Solution](https://www.frontendmentor.io/solutions/job-listings-with-filtering-lsCb2Q6R2x)
+- [Live site](https://garcia-jr-job-listings.netlify.app)
 
 ## My process
 
