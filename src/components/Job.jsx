@@ -19,7 +19,7 @@ const Job = ({ data }) => {
   let categories = [role, level, ...languages, ...tools];
 
   return (
-    <div className="relative flex min-w-min flex-col rounded-md bg-white px-6 font-League-Spartan text-[15px] shadow-lg shadow-Primary-Dark-Cyan/30 sm:flex-row sm:items-center sm:gap-4 sm:py-5 xl:px-10 xl:py-7">
+    <article className="relative flex min-w-min flex-col rounded-md bg-white px-6 font-League-Spartan text-[15px] shadow-lg shadow-Primary-Dark-Cyan/30 sm:flex-row sm:items-center sm:gap-4 sm:py-5 xl:px-10 xl:py-7">
       {data.featured && (
         <div
           aria-hidden="true"
@@ -69,13 +69,14 @@ const Job = ({ data }) => {
             <button
               onClick={() => selectFilter(category)}
               className="rounded bg-Neutral-Light-Cyan-Filter-Tablets px-2 py-0.5 font-bold text-Primary-Dark-Cyan transition hover:bg-Primary-Dark-Cyan hover:text-white"
+              aria-label="Select filter"
             >
               {category}
             </button>
           </li>
         ))}
       </ul>
-    </div>
+    </article>
   );
 };
 
