@@ -14,9 +14,11 @@ function App() {
           <img src={mobileBG} alt="" className="w-full" />
         </picture>
       </div>
-      <JobContextProvider>
-        <Content />
-      </JobContextProvider>
+      <main>
+        <JobContextProvider>
+          <Content />
+        </JobContextProvider>
+      </main>
     </div>
   );
 }
